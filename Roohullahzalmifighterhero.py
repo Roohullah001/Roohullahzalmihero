@@ -3,14 +3,14 @@
 #The Credit For This Code Goes To BabarAli
 #If You Wanna Take Credits For This Code, Please Look Yourself Again...
 #Reserved2020
-
-
+ 
+ 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
 from mechanize import Browser
-
-
+ 
+ 
 reload(sys)
 sys.setdefaultencoding('utf8')
 br = mechanize.Browser()
@@ -22,8 +22,8 @@ br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U
 def keluar():
 	print "\x1b[1;91mExit"
 	os.sys.exit()
-
-
+ 
+ 
 def acak(b):
     w = 'ahtdzjc'
     d = ''
@@ -237,7 +237,7 @@ def login1():
 		pwd = raw_input('\033[1;97m[+] \x1b[1;97mPassword\x1b[1;97m    : \x1b[1;97m')
 		tik()
 		try:
-			br.open('https://m.alpha.facebook.com')
+			br.open('https://mbasic.facebook.com')
 		except mechanize.URLError:
 			print"\n\x1b[1;97mThere is no internet connection"
 			keluar()
